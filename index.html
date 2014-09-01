@@ -1,0 +1,91 @@
+<html>
+<head>
+  <title>Sina's Sweet Travel Map</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+
+<<<<<<< HEAD
+  <script type="text/javascript" src="js/map.js"> </script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  
+=======
+  <script type="text/javascript"
+      src="js/map.js">
+  </script>
+  <script type="text/javascript">
+    function initialize() {
+      var mapOptions = {
+        center: new google.maps.LatLng(40.7590615, -73.969231,12),
+        zoom: 11
+      };
+
+      var map = new google.maps.Map(document.getElementById("map-canvas"),
+          mapOptions);
+
+      var image = {
+          url: "http://scontent-b.cdninstagram.com/hphotos-xfp1/t51.2885-15/10362225_646900952063007_1845591211_a.jpg",
+          size: new google.maps.Size(50, 50),
+          origin: new google.maps.Point(0,0),
+          anchor: new google.maps.Point(25, 25),
+          scaledSize: new google.maps.Size(50, 50)
+        };
+
+      var myLatLng = new google.maps.LatLng(40.764641, -73.994225);
+
+      var customMarker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: image
+        });
+
+      google.maps.event.addListener(customMarker, 'click', function() {
+          map.setZoom(16);
+          map.setCenter(customMarker.getPosition());
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+>>>>>>> b003a13a58b331625fb466f064256e11603ddcf6
+
+</head>
+<body>
+  <div id="wrap">
+    <div id="header">
+<<<<<<< HEAD
+			<div id="common">
+				<ul>
+					<li><a href="/rect/rect.html" class="buttons"> Colored rectangles/JS </a></li>
+					<li><a href="../jenn/jenn.html" class="buttons"> Jenn/jQuery </a></li>
+					<li><a href="../KevBacon/myimdb.php" class="buttons"> Kevin Bacon/PHP </a></li>
+					<li><a href="../Traveled-places/index.html" class="buttons"> Traveled places/API/jQuery </a></li>
+				</ul>
+		</div>
+		<div>
+      <h1>
+        Sina's Sweet Travel Map
+      </h1>
+			</div>
+=======
+      <h1>
+        Sina's Sweet Travel Map
+      </h1>
+>>>>>>> b003a13a58b331625fb466f064256e11603ddcf6
+    </div>
+    <div id="info">
+      <div id="info-left">
+        Here lies a sweet image.
+      </div>
+      <div id="info-right">
+        Here's a description of what this app is supposed to do.
+      </div>
+    </div>
+    <div id="map-canvas">
+      Map map map map map
+    </div>
+<<<<<<< HEAD
+    <div id="target"></div>
+=======
+>>>>>>> b003a13a58b331625fb466f064256e11603ddcf6
+  </div>
+</body>
+</html>

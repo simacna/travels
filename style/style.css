@@ -1,0 +1,77 @@
+<<<<<<< HEAD
+body{
+	margin: 0;
+}
+
+#wrap {
+	display: block;
+  width: 100%;
+  margin: 0;
+}
+
+
+#header {
+  height: 15%;
+  width: 100%;
+  background-color: #f06;
+	background: linear-gradient(45deg,#f06,yellow);
+=======
+#wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#header {
+  height: 200px;
+  width: 100%;
+  background-color: yellow;
+>>>>>>> b003a13a58b331625fb466f064256e11603ddcf6
+  display: table;
+}
+
+#info {
+  height: 300px;
+<<<<<<< HEAD
+  background-color: #98E0EB;
+	background: linear-gradient(35deg, #98E0EB, #7C25D9);
+=======
+  background-color: blue;
+>>>>>>> b003a13a58b331625fb466f064256e11603ddcf6
+}
+
+#map-canvas {
+  height: 800px;
+}
+
+#wrap h1 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#info-left {
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+<<<<<<< HEAD
+  background-color: #EB6D1E;
+	background: linear-gradient(55deg, #EB6D1E, #6CE087);
+=======
+  background-color: green;
+>>>>>>> b003a13a58b331625fb466f064256e11603ddcf6
+  float: left;
+}
+
+#info-right {
+  width: 60%;
+  height: 100%;
+  display: inline-block;
+<<<<<<< HEAD
+}
+
+#target {
+  width: 100%;
+  height: 300px;
+=======
+>>>>>>> b003a13a58b331625fb466f064256e11603ddcf6
+}
